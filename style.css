@@ -1,0 +1,51 @@
+body {
+    background-color: aqua;
+    font-family: "Lato", sans-serif;
+}
+.box {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    border: 4px solid black;
+    font-size: 30px;
+    padding: 20px 40px 15px 30px ; 
+    border-radius: 15px;
+}
+#heading {
+    text-align: center;
+    color: rgb(95, 95, 95);
+}
+#nomzod {
+    text-align: center;
+}
+.input {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+input {
+    height: 20px;
+    border: 1px solid white;
+    background-color: aqua;
+}
+button {
+    font-size: 25px;
+    font-weight: 700;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 5px;
+}
+button:hover {
+    background-color: rgb(75, 75, 245);
+    color: rgb(253, 183, 91);
+}
+#correct {
+    text-align: center;
+    border: 5px solid rgb(7, 194, 194);
+    background-color: aquamarine;
+    padding: 12px 10px 5px 5px;
+    border-radius: 10px;
+}
